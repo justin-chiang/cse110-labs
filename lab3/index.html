@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro Timer Second Brainstorm</title>
+    <link rel="icon" href="/media/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="navbar">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Meeting Minutes</a>
+            <a href="#">Team Page</a>
+        </nav>
+        <hr>
+    </div>
+    <div class="page-body">
+        <div class="heading">
+            <h1>Pomodoro Timer - Second Brainstorm Meeting</h1>
+            <h2 class="one">Topic: <span>Brainstorming</span></h2>
+            <h2 id="two">April 13, 2023</h2>
+        </div>
+        <div class="text-section">
+            <h3>Attendance</h3>
+            <ul>
+                <li>Spongebob Squarepants - <i>Team Lead</i></li>
+                <li>Squclassward - <i>Developer</i></li>
+                <li>Patrick - <i>Developer</i></li>
+            </ul>
+        </div>
+        <div class="text-section">
+            <h3>Agenda</h3>
+            <ol>
+                <li>Team member introductions</li>
+                <li>Delegate team roles</li>
+                <li>Discuss on proposed semantics of application</li>
+                <li>Brainstorm unique features of application</li>
+                <li>Discuss technologies to be used for development</li>
+                <li>Questions and concerns</li>
+            </ol>
+        </div>
+        <div class="text-section">
+            <h3>Unfinished Business From Last Meeting</h3>
+            <ul>
+                <li>Continue discussion of visual semantics of application</li>
+            </ul>
+        </div>
+        <div class="text-section">
+            <h3>New Business To Discuss</h3>
+            <ul>
+                <li>Come up with unique features for application</li>
+                <li>Discuss tech stack to be used for development</li>
+            </ul>
+        </div>
+        <div class="text-section">
+            <h3>Questions and Concerns</h3>
+            <ul>
+                <li>Timeline for development? <b>*address next meeting*</b></li>
+                <li>Not enough people with design experience, <em>too many developers</em> <strong>(potentially expand team?)</strong></li>
+            </ul>
+        </div>
+        <div class="media">
+            <details>
+                <summary><b>Meeting Media</b></summary>
+                <h4>Finalized Design</h4>
+                <img src="media/pomodorotimer.png" alt="Pomodoro Timer App">
+                <h4>Meeting Minutes Recap</h4>
+                <video controls src="media/video.mp4"></video>
+                <audio controls src="media/audio.mp3"></audio><br>
+            </details>
+        </div>
+        <div class="form">
+            <form>
+                <div class="input-inline">
+                    <label for="name">Name:</label>
+                    <input type="text" class="name">
+                    <label for="email">Email:</label>
+                    <input type="text" class="email">
+                    <label for="bday">Birthday:</label>
+                    <input type="date" class="bday">
+                </div>
+                <div class="input">
+                    <label for="yourday">Tell me about your day!</label><br>
+                    <textarea class="yourday" cols="30" rows="10"></textarea><br>
+                </div>
+                <div class="input">
+                    <input type="radio" class="collegestudent">
+                    <label for="collegestudent">I am a college student!</label><br>
+                </div>
+                <div class="input">
+                    <label for="year">What year are you?</label><br>
+                    <select name="year" class="year">
+                        <option value="first">First Year</option>
+                        <option value="second">Second Year</option>
+                        <option value="third">Third Year</option>
+                        <option value="fourth">Fourth Year </option>
+                    </select><br>
+                </div>
+                <div class="input">
+                    <label for="favlang">What is your favorite programming language?</label><br>
+                    <input list="languages" type="text" class="favlang"><br>
+
+                    <datalist class="languages">
+                        <option value="Java"></option>
+                        <option value="Python"></option>
+                        <option value="C++"></option>
+                    </datalist>
+                </div>
+                <div class="input">
+                    <input type="checkbox" class="verify">
+                    <label for="verify">I verify the information I inputted</label><br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="grid1">
+            <img id="smile1" src="media/smile.png" alt="Smiley face">
+        </div>
+        <div class="grid2">
+            <p>Thank you for reading through these meeting notes! Please communicate any questions to j2chiang@ucsd.edu. Looking forward to the next meeting.</p>
+        </div>
+        <div class="grid3">
+            <img id="smile2" src="media/smile.png" alt="Smiley face">
+        </div>
+        <img id="thankyou" src="media/thankyou.jpeg" alt="Thank you!">
+    </div>
+  </body>
+</html>
